@@ -5,19 +5,19 @@ const projectsData = [
   {
     title: "Project One",
     description: "A brief description of the project.",
-    image: "shivapic.jpg",
+    image: "shivapic1.jpg",
     liveLink: "https://example.com/project1",
   },
   {
     title: "Project Two",
     description: "A brief description of the project.",
-    image: "shivapic.jpg",
+    image: "shivapic1.jpg",
     liveLink: "https://example.com/project2",
   },
   {
     title: "Project Three",
     description: "A brief description of the project.",
-    image: "shivapic.jpg",
+    image: "shivapic1.jpg",
     liveLink: "https://example.com/project3",
   },
 ];

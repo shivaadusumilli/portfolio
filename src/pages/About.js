@@ -5,7 +5,7 @@ const About = ({aboutRef}) => (
   <section ref={aboutRef} className="about">
     <div className="about-container">
       <div className="about-photo-container">
-        <img src="shivapic.jpg" alt="Your Name" className="about-photo" />
+        <img src="shivapic1.jpg" alt="Your Name" className="about-photo" />
       </div>
       <div className="about-description">
       <h1 className="about-heading">Passion and Purpose</h1>
