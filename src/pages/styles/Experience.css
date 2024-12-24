@@ -1,0 +1,86 @@
+.experience {
+    padding: 50px 0px;
+    background-color: #121212; /* Dark background */
+    color: #f2f3f4; /* White text */
+    flex-direction: column; /* Align items vertically */
+
+  }
+  
+  .experience-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #e74c3c; /* Red accent */
+    font-weight: bold;
+  }
+  
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between tiles */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .experience-tile {
+    background: linear-gradient(145deg, #1a1a1a, #202020); /* Glossy gradient */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.1); /* Glossy shadow */
+    border-radius: 15px;
+    padding: 20px;
+    color: #f2f3f4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-tile:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .tile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .experience-company {
+    font-size: 1.5rem;
+    color: #e74c3c; /* Red accent */
+    font-weight: bold;
+  }
+  
+  .experience-role {
+    font-size: 1.2rem;
+    color: #f2f3f4; /* White text */
+  }
+  
+  .experience-role span {
+    color: #abb2b9; /* Subtle gray for duration */
+  }
+  
+  .experience-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f2f3f4; /* White text */
+  }
+  
+  .experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between skill pills */
+  }
+  
+  .skill-pill {
+    background-color: #2c2c2c; /* Subtle dark background */
+    color: #e74c3c; /* Red text for a professional accent */
+    padding: 4px 8px; /* Smaller padding to make it less prominent */
+    border-radius: 10px; /* Slightly rounded for a modern look */
+    font-size: 0.85rem; /* Smaller font size for subtlety */
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-pill:hover {
+    background-color: #e74c3c; /* Highlight red background on hover */
+    color: #f2f3f4; /* White text for contrast */
+  }
+  

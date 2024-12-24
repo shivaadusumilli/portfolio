@@ -1,0 +1,55 @@
+/* About.css */
+
+.about {
+    background-color: #121212; /* Dark background */
+    color: #f2f3f4; /* Light text */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 50px; /* Increased gap for spacing */
+  }
+  
+  .about-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+  }
+  
+  .about-photo {
+    width: 400px; /* Increased size for emphasis */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e74c3c; /* Red accent for heading */
+    margin-bottom: 20px;
+    text-align: left; /* Align to the left */
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left; /* Align text to the left */
+    max-width: 800px;
+  }
+  
+  .about-description p {
+    margin-bottom: 15px;
+  }
+  

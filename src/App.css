@@ -1,0 +1,11 @@
+main {
+  scroll-behavior: smooth;
+}
+
+main section {
+  width: 100%;
+  min-height: 100vh; /* Ensure all sections are full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
